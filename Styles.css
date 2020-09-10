@@ -5,23 +5,30 @@ body {
   align-items: center;
   height: 100%;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
   text-align: left;
   color: #000;
   font-family: "Mali", cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   display: block;
 }
 
 h2 {
   font-family: "Mali", cursive;
-  border-bottom: 2px solid;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Mali", cursive;
+  font-size: 1.3rem;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
@@ -34,11 +41,17 @@ p {
 }
 
 nav {
-  background-color: #e4685d;
+  background-color: #e96f6f;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
   margin: auto;
+}
+
+.Nav-logo {
+  width: 60px;
+  height: 60px;
+  margin: auto 0;
 }
 
 a {
@@ -79,7 +92,7 @@ main {
 
 .reservation {
   box-shadow: 0px 0px 68px 14px #ffffff;
-  background-color: #e4685d;
+  background-color: #e96f6f;
   border-radius: 8px;
   border: 3px solid #e96f6f;
   display: inline-block;
@@ -105,9 +118,9 @@ main {
   color: black;
 }
 
-.table-row{
+.table-row {
   align-content: center;
-  width: 75%;
+  margin: 0 auto;
 }
 
 .picture1 {
@@ -140,12 +153,12 @@ hr {
 }
 
 .card {
-  background: white;
-  margin: 0rem 5rem;
+  background: #f67575;
+  margin: 0rem 2rem;
   display: flex;
   flex-direction: column;
   text-align: center;
-  border-radius: 2rem;
+  border-radius: 1rem;
   overflow: hidden;
 }
 
@@ -155,11 +168,18 @@ hr {
   color: black;
 }
 
+#gif {
+  width: 300px;
+  height: 300px;
+}
+
 .features p {
   padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .features h4 {
+  text-align: center;
   margin: 2rem 0rem 1rem 0rem;
 }
 
@@ -168,7 +188,7 @@ hr {
 }
 
 .location {
-  background-color: #e4685d;
+  background-color: #f67575;
   height: 600px;
   width: 100%;
 }
@@ -182,27 +202,69 @@ hr {
   height: 450px;
 }
 
-footer {
-  margin: auto;
-  background-color: hsla(0, 0%, 0%, 0.507);
-  padding-top: 70px;
-  padding-bottom: 70px;
-  text-align: center;
-  font-size: 16px;
-  justify-content: space-evenly;
-  align-items: center;
+.footer-container {
+  background-color: #212329;
+  padding-bottom: 4rem 0 4rem 0;
+}
+
+.footer {
+  width: 80%;
+  height: 40vh;
+  background-color: #212329;
+  color: #fff;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
-.footer-logo {
-  width: 60px;
-  height: 60px;
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
 }
 
-.footer-link {
-  flex: 1;
+.footer-heading h3 {
+  margin-bottom: 2rem;
 }
 
-.copyright {
-  flex: 1;
+.footer-heading a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+  color: red;
+  transition: 0.3s ease-out;
+}
+
+.footer-email-form h3 {
+  margin-bottom: 2rem;
+}
+
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+  color: #b1b1b1;
+}
+
+#footer-email-btn {
+  background-color:#e96f6f ;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
 }
