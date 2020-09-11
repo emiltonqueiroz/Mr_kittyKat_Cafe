@@ -110,6 +110,7 @@ main {
 .row {
   text-align: center;
   line-height: 2;
+  width: 100%;
 }
 
 .row p {
@@ -119,6 +120,7 @@ main {
 }
 
 .table-row {
+  width: 85%;
   align-content: center;
   margin: 0 auto;
 }
