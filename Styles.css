@@ -42,6 +42,7 @@ p {
 
 nav {
   background-color: #e96f6f;
+  border-bottom: #eaeaea 3px solid;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
@@ -108,12 +109,13 @@ main {
 }
 
 .row {
-  text-align: center;
-  line-height: 2;
+  margin-top: -20px;
   width: 100%;
 }
 
 .row p {
+  text-align: center;
+  line-height: 2;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
@@ -145,10 +147,20 @@ hr {
   width: 10%;
 }
 
+.features-container{
+margin-top: 50px;
+}
+
+.features-container SVG {
+  margin-bottom: -30px;
+}
+
 .features {
   min-height: 250px;
   width: 80%;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: -70px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -190,6 +202,7 @@ hr {
 }
 
 .location {
+  margin: 0 auto;
   background-color: #f67575;
   height: 600px;
   width: 100%;
@@ -207,6 +220,7 @@ hr {
 .footer-container {
   background-color: #212329;
   padding-bottom: 4rem 0 4rem 0;
+  border-top: #eaeaea 3px solid;
 }
 
 .footer {
@@ -261,7 +275,7 @@ hr {
 }
 
 #footer-email-btn {
-  background-color:#e96f6f ;
+  background-color: #e96f6f;
   width: 100px;
   height: 40px;
   border-radius: 4px;
