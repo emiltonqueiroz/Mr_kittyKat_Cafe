@@ -155,7 +155,7 @@ hr {
 
 .features {
   min-height: 250px;
-  width: 80%;
+  width: 90%;
   margin: auto;
   margin-top: 20px;
   margin-bottom: -70px;
@@ -181,7 +181,7 @@ hr {
 }
 
 .gif {
-  width: 300px;
+  width: auto;
   height: 300px;
 }
 
@@ -211,7 +211,8 @@ hr {
 }
 
 .map {
-  width: 1000%;
+  margin-left: 10%;
+  width: 80%;
   height: 400px;
 }
 
